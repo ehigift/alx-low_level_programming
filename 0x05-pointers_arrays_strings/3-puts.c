@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
  * _puts - print a string
@@ -7,12 +7,12 @@
  */
 void _puts(char *str)
 {
-	int i;
+        int i;
 
-	for (i = 0; str[i] != '\0'; i++)
-	{
-		_putchar(str[i]);
-	}
+        for (i = 0; str[i] != '\0'; i++)
+        {
+                _putchar(str[i]);
+        }
 _putchar('\n');
 return;
 }
